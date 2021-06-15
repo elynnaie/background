@@ -1,0 +1,22 @@
+{
+  "name": "background",
+  "version": "1.0.0",
+  "description": "Periodically updates desktop background with pictures from Unsplash",
+  "main": "index.js",
+  "repository": "https://github.com/elynnaie/background",
+  "author": "Lily <elynnaie@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "app": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-fetch": "^2.6.1",
+    "node-navigator": "^1.0.1",
+    "node-schedule": "^2.0.0",
+    "sunrise-sunset-js": "^2.2.1",
+    "unsplash-js": "^7.0.11",
+    "wallpaper": "^5.0.1",
+    "yargs": "^17.0.1"
+  }
+}
